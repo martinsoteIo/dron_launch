@@ -21,7 +21,7 @@ git clone https://github.com/martinsoteIo/dron_launch.git
 ### Build the Docker Image and Run the Container
 Building the Docker Image and running the container from the Dockerfile using Docker Compose is really simple, you just need to run:
 ```
-cd ~/rl_bouncer/
+cd ~/dron_launch/
 docker compose build dron_launch
 docker compose up -d
 docker exec -it dron_launch-dron_launch-1 bash
