@@ -32,3 +32,5 @@ Once the container is running you can attach any terminal to the container by ru
 ```
 docker exec -it dron_launch-dron_launch-1 bash
 ```
+### Move platform file to PX4-Autopilot models
+mv ~/workspace/moving_platform/ ~/workspace/PX4-Autopilot/Tools/simulation/gz/models/moving_platform/
