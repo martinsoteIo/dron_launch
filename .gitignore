@@ -1,0 +1,8 @@
+workspace/MAVSDK-Python/
+workspace/Micro-XRCE-DDS-Agent/
+workspace/PX4-Autopilot/
+workspace/ros_gz/
+workspace/ws/
+workspace/ws_sensor_combined/
+workspace/.bashrc
+workspace/QGroundControl.AppImage
