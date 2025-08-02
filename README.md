@@ -34,3 +34,9 @@ docker exec -it dron_launch-dron_launch-1 bash
 ```
 ### Move platform file to PX4-Autopilot models
 mv ~/workspace/moving_platform/ ~/workspace/PX4-Autopilot/Tools/simulation/gz/models/moving_platform/
+
+### Launch Moving Platform
+cd ~/workspace/ws
+colcon build --packages-select moving_platform_description
+source install/setup.bash
+ros2 launch moving_platform_description moving_platform.launch.py
